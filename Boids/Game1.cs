@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
@@ -12,7 +13,9 @@ namespace Boids
         ComponentText feedback;
         Stopwatch timer;
         Color bkgCol = new Color(30, 30, 60);
-
+        DateTime _fpsTime;
+        int _fpsCounter;
+        int _fps;
 
 
         public Game1()
@@ -33,6 +36,7 @@ namespace Boids
 
             graphics.PreferredBackBufferWidth = Data.winW;
             graphics.PreferredBackBufferHeight = Data.winH;
+            graphics.SynchronizeWithVerticalRetrace = false;
 
             Data.GDM = graphics;
             Content.RootDirectory = "Content";
@@ -44,6 +48,8 @@ namespace Boids
 
         protected override void LoadContent()
         {
+            IsFixedTimeStep = false;
+
             SpriteBatch spriteBatch = new SpriteBatch(GraphicsDevice);
             Data.SB = spriteBatch;
 
@@ -81,6 +87,16 @@ namespace Boids
         protected override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
+
+            if (DateTime.Now >= _fpsTime)
+            {
+                _fpsTime = DateTime.Now.AddSeconds(1);
+                _fps = _fpsCounter;
+                _fpsCounter = 0;
+
+                feedback.text = $"FPS: {_fps}";
+            }
+
             timer.Restart();
 
             var thread1 = Task.Run(() => BoidPool.UpdateA());
@@ -106,7 +122,7 @@ namespace Boids
             BoidPool.Draw();
             //feedback.text = "" + BoidPool.size + " at " +
             //    timer.ElapsedMilliseconds + "ms";
-            //Functions.Draw(feedback);
+            Functions.Draw(feedback);
             Data.SB.End();
 
             //draw game + bloom
@@ -123,6 +139,8 @@ namespace Boids
                new Rectangle(0, 0, Data.winW, Data.winH),
                 Color.White);
             Data.SB.End();
+
+            _fpsCounter++;
         }
 
     }
