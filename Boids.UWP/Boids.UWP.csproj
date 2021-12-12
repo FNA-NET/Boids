@@ -143,7 +143,6 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.12</Version>
     </PackageReference>
-    <PackageReference Include="FNA.NET" Version="1.0.0.53-develop" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Boids\Boids.csproj">
