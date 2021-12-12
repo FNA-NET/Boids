@@ -18,6 +18,22 @@ namespace FNA.Boids
         public Game1()
         {
             GraphicsDeviceManager graphics = new GraphicsDeviceManager(this);
+
+
+            var displayMode = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode;
+
+#if NET
+            if (System.OperatingSystem.IsAndroid() || System.OperatingSystem.IsIOS())
+            {
+                graphics.IsFullScreen = true;
+                Data.winW = displayMode.Width;
+                Data.winH = displayMode.Height;
+            }
+#endif
+
+            graphics.PreferredBackBufferWidth = Data.winW;
+            graphics.PreferredBackBufferHeight = Data.winH;
+
             Data.GDM = graphics;
             Content.RootDirectory = "Content";
             Data.CM = Content;
