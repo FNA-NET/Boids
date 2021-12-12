@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNA.Boids.Desktop", "FNA.Boids.Desktop\FNA.Boids.Desktop.csproj", "{1FD47FED-0670-4869-8AEB-2946EA0F5D85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boids.Desktop", "Boids.Desktop\Boids.Desktop.csproj", "{1FD47FED-0670-4869-8AEB-2946EA0F5D85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNA.Boids.UWP", "FNA.Boids.UWP\FNA.Boids.UWP.csproj", "{495CABAF-BC12-4854-873D-BDA56AD94D6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boids.UWP", "Boids.UWP\Boids.UWP.csproj", "{495CABAF-BC12-4854-873D-BDA56AD94D6E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNA.Boids", "FNA.Boids\FNA.Boids.csproj", "{B209092A-3012-4A41-A4F7-94B894AF9216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boids", "Boids\Boids.csproj", "{B209092A-3012-4A41-A4F7-94B894AF9216}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNA.Boids.Android", "FNA.Boids.Android\FNA.Boids.Android.csproj", "{76514E71-5601-48AC-B9DD-9535245C2174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boids.Android", "Boids.Android\Boids.Android.csproj", "{76514E71-5601-48AC-B9DD-9535245C2174}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

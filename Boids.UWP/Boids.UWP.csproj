@@ -11,8 +11,8 @@
     <ProjectGuid>{495CABAF-BC12-4854-873D-BDA56AD94D6E}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FNA.Boids.UWP</RootNamespace>
-    <AssemblyName>FNA.Boids.UWP</AssemblyName>
+    <RootNamespace>Boids.UWP</RootNamespace>
+    <AssemblyName>Boids.UWP</AssemblyName>
     <DefaultLanguage>zh-CN</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
@@ -146,16 +146,16 @@
     <PackageReference Include="FNA.NET" Version="1.0.0.53-develop" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FNA.Boids\FNA.Boids.csproj">
+    <ProjectReference Include="..\Boids\Boids.csproj">
       <Project>{b209092a-3012-4a41-a4f7-94b894af9216}</Project>
-      <Name>FNA.Boids</Name>
+      <Name>Boids</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\FNA.Boids\Content\Content.mgcb" Visible="false" />
+    <MonoGameContentReference Include="..\Boids\Content\Content.mgcb" Visible="false" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />

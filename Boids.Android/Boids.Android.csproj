@@ -6,18 +6,18 @@
     <OutputType>Exe</OutputType>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationId>com.companyname.FNA.Boids.Android</ApplicationId>
+    <ApplicationId>com.companyname.Boids.Android</ApplicationId>
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     <MonoGamePlatform>Android</MonoGamePlatform>
   </PropertyGroup>
 
   <ItemGroup>
-    <MonoGameContentReference Include="..\FNA.Boids\Content\Content.mgcb" Visible="false" />
+    <MonoGameContentReference Include="..\Boids\Content\Content.mgcb" Visible="false" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FNA.Boids\FNA.Boids.csproj" />
+    <ProjectReference Include="..\Boids\Boids.csproj" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
   </ItemGroup>
 </Project>

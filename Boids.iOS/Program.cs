@@ -4,7 +4,7 @@ using UIKit;
 using System.Runtime.InteropServices;
 using SDL2;
 
-namespace FNA.Boids.iOS
+namespace Boids.iOS
 {
     class Program
     {

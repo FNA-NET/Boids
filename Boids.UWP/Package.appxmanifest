@@ -14,7 +14,7 @@
   <mp:PhoneIdentity PhoneProductId="8115e1e2-a99e-441c-a39d-90e41dc5e2aa" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>FNA.Boids.UWP</DisplayName>
+    <DisplayName>Boids.UWP</DisplayName>
     <PublisherDisplayName>FNA-NET</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="FNA.Boids.UWP.App">
+      EntryPoint="Boids.UWP.App">
       <uap:VisualElements
-        DisplayName="FNA.Boids.UWP"
+        DisplayName="Boids.UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="FNA.Boids.UWP"
+        Description="Boids.UWP"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

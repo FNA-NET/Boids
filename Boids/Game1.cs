@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace FNA.Boids
+namespace Boids
 {
     public class Game1 : Game
     {

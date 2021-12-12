@@ -1,4 +1,4 @@
-﻿using FNA.Boids;
+﻿using Boids;
 
 using (var g = new Game1())
 {

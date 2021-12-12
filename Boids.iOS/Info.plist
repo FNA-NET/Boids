@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>FNA.Boids.iOS</string>
+    <string>Boids.iOS</string>
     <key>CFBundleDisplayName</key>
-    <string>FNA.Boids.iOS</string>
+    <string>Boids.iOS</string>
     <key>CFBundleIconFiles</key>
     <array>
         <string>GameThumbnail.png</string>

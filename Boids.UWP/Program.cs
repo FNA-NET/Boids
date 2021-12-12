@@ -1,7 +1,7 @@
 ﻿using System;
 using SDL2;
 
-namespace FNA.Boids.UWP
+namespace Boids.UWP
 {
     /// <summary>
     /// The main class.

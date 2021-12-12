@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <MonoGameContentReference Include="..\FNA.Boids\Content\Content.mgcb" Visible="false" />
+    <MonoGameContentReference Include="..\Boids\Content\Content.mgcb" Visible="false" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FNA.Boids\FNA.Boids.csproj" />
+    <ProjectReference Include="..\Boids\Boids.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
 using Android.Content.PM;
 
-namespace FNA.Boids.Android
+namespace Boids.Android
 {
 	[Activity(
 		Label = "@string/app_name",

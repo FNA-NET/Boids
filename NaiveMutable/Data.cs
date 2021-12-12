@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Content;
 using System.Diagnostics;
 using Microsoft.Xna.Framework.Input;
 
-namespace FNA.Boids
+namespace Boids
 {
     public static class Data
     {
