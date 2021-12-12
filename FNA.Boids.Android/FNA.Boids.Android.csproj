@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <MonoGameContentReference Include="..\FNa.Boids\Content\Content.mgcb" Visible="false" />
+    <MonoGameContentReference Include="..\FNA.Boids\Content\Content.mgcb" Visible="false" />
   </ItemGroup>
 
   <ItemGroup>

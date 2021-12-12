@@ -155,7 +155,7 @@
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\FNa.Boids\Content\Content.mgcb" Visible="false" />
+    <MonoGameContentReference Include="..\FNA.Boids\Content\Content.mgcb" Visible="false" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
