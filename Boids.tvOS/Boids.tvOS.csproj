@@ -7,7 +7,6 @@
     <SupportedOSPlatformVersion>11.2</SupportedOSPlatformVersion>
     <RuntimeIdentifier>tvossimulator-x64</RuntimeIdentifier>
     <MtouchLink>SdkOnly</MtouchLink>
-    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
   </PropertyGroup>
 
   <ItemGroup>

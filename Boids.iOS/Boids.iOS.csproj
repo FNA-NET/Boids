@@ -6,7 +6,6 @@
     <RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
-    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
   </PropertyGroup>
 
   <ItemGroup>

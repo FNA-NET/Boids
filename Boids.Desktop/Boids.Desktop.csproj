@@ -4,7 +4,6 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
   </PropertyGroup>
 
   <ItemGroup>

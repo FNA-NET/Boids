@@ -9,7 +9,6 @@
     <ApplicationId>com.companyname.Boids.Android</ApplicationId>
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
-    <MonoGamePlatform>Android</MonoGamePlatform>
   </PropertyGroup>
 
   <ItemGroup>
