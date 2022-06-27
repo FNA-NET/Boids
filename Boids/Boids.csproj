@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FNA.NET" Version="1.0.0.76-develop" />
+    <PackageReference Include="FNA.NET" Version="1.0.0.77-develop" />
   </ItemGroup>
 
 </Project>
