@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net6.0;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net8.0;</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FNA.NET" Version="1.0.0.77-develop" />
+    <PackageReference Include="FNA.NET" Version="1.0.0.2403" />
   </ItemGroup>
 
 </Project>

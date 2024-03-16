@@ -1,11 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-ios</TargetFramework>
+    <TargetFramework>net8.0-ios</TargetFramework>
     <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
     <OutputType>Exe</OutputType>
     <RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <_ExportSymbolsExplicitly>false</_ExportSymbolsExplicitly>
+    <MtouchExtraArgs>-gcc_flags "-dlsym:false"</MtouchExtraArgs>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Boids\Boids.csproj" />
-    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
   </ItemGroup>
 </Project>
