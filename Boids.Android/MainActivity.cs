@@ -9,7 +9,7 @@ namespace Boids.Android
 		HardwareAccelerated = true,
 		ScreenOrientation = ScreenOrientation.Landscape
 	)]
-	public class MainActivity : AndroidGameActivity
+	public class MainActivity : AndroidGameActivityEXT
 	{
 		protected override void SDLMain()
 		{

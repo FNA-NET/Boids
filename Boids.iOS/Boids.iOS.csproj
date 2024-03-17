@@ -8,6 +8,7 @@
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <_ExportSymbolsExplicitly>false</_ExportSymbolsExplicitly>
     <MtouchExtraArgs>-gcc_flags "-dlsym:false"</MtouchExtraArgs>
+    <MonoGamePlatform>iOS</MonoGamePlatform>
   </PropertyGroup>
 
   <ItemGroup>
