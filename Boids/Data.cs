@@ -33,7 +33,7 @@ namespace Boids
         public static float Layer_Debug = 0.000001f; //very top
 
         public static int winW = 1024;
-        public static int winH = 512;
+        public static int winH = 768;
 
         public static RenderTarget2D DisplayRT2D;
     }

@@ -28,12 +28,15 @@ namespace Boids
 
         public static void Animation_Update(ComponentAnimation Anim, ComponentSprite Sprite)
         {
-            Anim.counter++;
-            if (Anim.counter >= Anim.speed)
+            lock (Anim)
             {
-                Anim.counter = 0; Anim.index++;
-                if (Anim.index >= Anim.Frames.Count) { Anim.index = 0; }
-                Sprite.currentFrame = Anim.Frames[Anim.index];
+                Anim.counter++;
+                if (Anim.counter >= Anim.speed)
+                {
+                    Anim.counter = 0; Anim.index++;
+                    if (Anim.index >= Anim.Frames.Count) { Anim.index = 0; }
+                    Sprite.currentFrame = Anim.Frames[Anim.index];
+                }
             }
         }
 
